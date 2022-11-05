@@ -1,4 +1,4 @@
-fk_musica;fk_genero
+music_id;genre_id
 1;9
 1;38
 2;9
