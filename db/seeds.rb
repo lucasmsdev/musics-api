@@ -12,6 +12,8 @@ csv.each { |row| Artist.find_or_create_by(name: row['name']) }
 csv = CSV.open('./db/data/musics.csv', headers: true)
 csv.each { |row| Music.find_or_create_by(name: row['name'], artist_id: row['artist_id'], year: row['year'], image_url: row['image_url'], youtube_url: row['youtube_url']) }
 
+csv = CSV.open('./db/data/genres_musics.csv', headers: true)
+csv.each { |row| Genre.find_by(slug: row['genre_id']) }
 
 
 

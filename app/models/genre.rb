@@ -3,6 +3,7 @@ class Genre < ApplicationRecord
   
   validates :name, :slug, presence: true
   validates :name, :slug, uniqueness: true
+  
 
   before_validation :set_slug
 
