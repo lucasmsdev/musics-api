@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
     controller :genres do
       get '/genres', action: :index
-      get '/genres/:slug', action: :show
+      get '/genres/:slug', action: :show, as: :genre
     end
 
     controller :musics do
