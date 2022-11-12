@@ -21,6 +21,11 @@ csv.each do |row|
 end
 
 
+csv.each do |row|
+   artist = Artist.find_by(id: row['id'])
+   music = Music.find_by(id: row['artist_id'])
+   artist.musics << music
+end
 
 
 
