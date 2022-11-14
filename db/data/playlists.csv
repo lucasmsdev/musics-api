@@ -1,3 +1,3 @@
-pk_playlist;user;title;data_playlist;description
-1;1;Top 100 do Pedro;29/09/2022;
-2;2;Academia;30/09/2022;
+pk_playlist,user,title,data_playlist,description
+1,1,Top 100 do Pedro,29/09/2022,
+2,2,Academia,30/09/2022,
