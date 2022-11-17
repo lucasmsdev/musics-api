@@ -11,3 +11,5 @@ gem "rack-cors"
 gem "pry-meta"
 gem "devise"
 gem "bootsnap", require: false
+gem "rack-cors"
+
